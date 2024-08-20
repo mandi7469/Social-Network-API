@@ -1,0 +1,27 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "An API social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node utils/seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandi7469/Social-Network-API.git"
+  },
+  "author": "Amanda Changa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mandi7469/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/mandi7469/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3",
+    "nodemon": "^3.1.4"
+  }
+}
