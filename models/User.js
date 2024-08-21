@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-// Schema to create User model
+//schema to create User model
 const userSchema = new Schema(
   {
     username: {
@@ -36,15 +36,16 @@ const userSchema = new Schema(
     //this is indicating that we want virtuals to be included with our response, overriding the default behavior
     toJSON: {
       virtuals: true,
+      getters: true,
     },
     id: false,
   }
 );
 
-//creates a virtual property `friendCount` that gets the # of user's friends
+//creates a virtual property `friendCount` that gets the number of user's friends
 userSchema
   .virtual("friendCount")
-  //getter
+//getter
   .get(function () {
     return this.friends.length;
   });
