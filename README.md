@@ -2,39 +2,37 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Built an API for a web application where social network users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Badges](#badges)
+- [Contribute](#how-to-contribute)
+- [Questions/Contact](#questions)
 - [License](#license)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+1. Clone project repository down into your desired directory 
+2. Open project terminal and run the command `npm install` to install the packages and dependencies 
+3. To seed the starter data, run the command `npm run seed`
+4. To invoke the application, run the command `npm run dev` and this will start the server and automatically restart it whenever changes are saved 
+5. To end and stop the application from running, run the command `control c`
+
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+[Walkthrough video link]()
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The image shows all the routes using Insomnia
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![alt text]()
 
 ## Badges
 
-[![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-green)](https://github.com/mandi7469) [![Static Badge](https://img.shields.io/badge/Postgre-SQL-blue%20)](https://www.postgresql.org/) [![Static Badge](https://img.shields.io/badge/Node-JS-darkgreen)](https://nodejs.org/en) [![Static Badge](https://img.shields.io/badge/Sequelize-5.21.7-darkblue)](https://sequelize.org/) [![Static Badge](https://img.shields.io/badge/Nodemon-2.0.3-green)](https://www.npmjs.com/package/nodemon)
+[![Static Badge](https://img.shields.io/badge/GitHub-mandi7469-darkgreen)](https://github.com/mandi7469) [![Static Badge](https://img.shields.io/badge/Express.js-4.19.2-blue%20)](https://www.npmjs.com/package/express) [![Static Badge](https://img.shields.io/badge/Mongoose-8.5.3-red)](https://www.npmjs.com/package/mongoose) [![Static Badge](https://img.shields.io/badge/Nodemon-3.1.4-green)](https://www.npmjs.com/package/nodemon)
 
 
 ## How to Contribute
