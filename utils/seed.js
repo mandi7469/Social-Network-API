@@ -5,26 +5,26 @@ const users = [
   {
     username: "rachelGreen",
     email: "rgreen@mail.com",
-    thoughts: [],
-    friends: []
+    // thoughtText: "We were NOT on a break",
+    // friends: []
   },
   {
     username: "chandlerBing",
     email: "cbing@mail.com",
-    thoughts: [],
-    friends: []
+    // thoughtText: "I'm Chandler, I make jokes when I'm unconfortable",
+    // friends: []
   },
   {
     username: "phoebeBuffay",
     email: "pbuffay@mail.com",
-    thoughts: [],
-    friends: []
+    // thoughtText: "Smelly cat, smelly cat, what are they feeding you? Smelly cat, smelly cat, it's not your faaault!",
+    // friends: []
   },
   {
     username: "rossGeller",
     email: "rgeller@mail.com",
-    thoughts: [],
-    friends: []
+    // thoughtText: "Someone at work ate my sandwhich. MYYYYYY SANDDWICCCCCCHHHHHHH! That sandwhich was the only good thing going on in my life.",
+    // friends: []
   },
   
 ];

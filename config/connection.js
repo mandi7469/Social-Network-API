@@ -1,11 +1,11 @@
-// Imports
+//imports
 const { connect, connection } = require("mongoose");
 
-// Creates database
+//creates database
 const connectionString = "mongodb://127.0.0.1:27017/socialNetworkDB";
 
-// Connects Mongoose and MongoDB
+//connects Mongoose and MongoDB
 connect(connectionString);
 
-// Exports
+//exports
 module.exports = connection;

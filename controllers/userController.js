@@ -35,7 +35,7 @@ module.exports = {
       const user = await User.create(req.body);
       res.json(user);
     } catch (err) {
-      return res.status(500).json(err);
+      res.status(500).json(err);
     }
   },
 
@@ -54,7 +54,7 @@ module.exports = {
 
       res.json(user);
     } catch (err) {
-      return res.status(500).json(err);
+      res.status(500).json(err);
     }
   },
 
@@ -70,7 +70,7 @@ module.exports = {
       await Thought.deleteMany({ _id: { $in: user.thoughts } });
       res.json({message: "User, thoughts and reactions deleted!"});
     } catch (err) {
-      return res.status(500).json(err);
+      res.status(500).json(err);
     }
   },
 
@@ -89,7 +89,7 @@ module.exports = {
 
       res.json(friend);
     } catch (err) {
-      return res.status(500).json(err);
+      res.status(500).json(err);
     }
   },
 
@@ -108,7 +108,7 @@ module.exports = {
 
       res.json(friend);
     } catch (err) {
-      return res.status(500).json(err);
+      res.status(500).json(err);
     }
   },
 };
