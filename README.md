@@ -24,11 +24,11 @@ Built an API for a web application where social network users can share their th
 
 ## Usage
 
-[Walkthrough video link]()
+[Walkthrough video link](https://drive.google.com/file/d/19z7q_37zA8TiFJ1TyIu4_ICkQcU2MVmz/view?usp=sharing)
 
-The image shows all the routes using Insomnia
+The image is from Insomnia reflecting the GET route for all the users and also lists the other routes that were created 
 
-![alt text]()
+![alt text](./assets/images/Screenshot%202024-08-22%20at%206.32.36 PM.png)
 
 ## Badges
 
